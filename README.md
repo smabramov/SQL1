@@ -9,7 +9,7 @@
 
 `SELECT DISTINCT district FROM address WHERE (district LIKE 'K%a' AND district NOT LIKE '% %');`
 
-![Название скриншота 1](ссылка на скриншот 1)
+![1](https://github.com/smabramov/SQL1/blob/e12468790edf0c72fe3d0c77d06841e4fbd3342e/jpg/1.jpg)
 
 
 ---
@@ -21,7 +21,7 @@
 
 `SELECT * FROM payment WHERE (DATE(payment_date) BETWEEN '2005-06-15' AND '2005-07-18') AND amount > 10;`
 
-![Название скриншота 1](ссылка на скриншот 1)
+![2](https://github.com/smabramov/SQL1/blob/e12468790edf0c72fe3d0c77d06841e4fbd3342e/jpg/2.jpg)
 
 ---
 
@@ -32,7 +32,7 @@
 
 `SELECT * FROM payment ORDER BY payment_date DESC LIMIT 5;`
 
-![Название скриншота 1](ссылка на скриншот 1)
+![3](https://github.com/smabramov/SQL1/blob/e12468790edf0c72fe3d0c77d06841e4fbd3342e/jpg/3.jpg)
 
 ---
 
@@ -49,7 +49,7 @@
 `SELECT customer_id, last_name, LOWER( REPLACE(first_name,'LL','PP')) FROM customer WHERE (first_name LIKE "Kelly" OR first_name LIKE "Willie");`
 
 
-![Название скриншота 1](ссылка на скриншот 1)
+![4](https://github.com/smabramov/SQL1/blob/e12468790edf0c72fe3d0c77d06841e4fbd3342e/jpg/4.jpg)
 
 
 ---
