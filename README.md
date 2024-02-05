@@ -51,5 +51,15 @@
 
 ![4](https://github.com/smabramov/SQL1/blob/e12468790edf0c72fe3d0c77d06841e4fbd3342e/jpg/4.jpg)
 
+---
 
+### Задание 5*
+
+Выведите Email каждого покупателя, разделив значение Email на две отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй — значение, указанное после @.
+
+
+`SELECT LEFT(email, POSITION('@' IN email)), RIGHT(email, POSITION('@' IN email)) FROM customer; `
+
+
+![5]()
 ---
