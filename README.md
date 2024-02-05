@@ -61,5 +61,5 @@
 `SELECT LEFT(email, POSITION('@' IN email)), RIGHT(email, POSITION('@' IN email)) FROM customer; `
 
 
-![5]()
+![5](https://github.com/smabramov/SQL1/blob/c8823f316307b817e80422a5ed3b4d89e36eba50/jpg/5.jpg)
 ---
